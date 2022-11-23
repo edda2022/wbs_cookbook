@@ -1,0 +1,47 @@
+
+/* Style Navbar */
+
+
+
+.navbar {
+    background-color: rgba(214, 207, 207, 0.43);
+    height: 100vh;
+    align-items: flex-start;
+}
+
+
+
+.navbar a {
+    color: rgb(67, 64, 64);
+    font-weight: 400;
+    font-size: 18px;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+.navbar-brand {
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.dropdown-item  {
+    width: 15vh;
+}
+
+.active {
+    background-color: rgb(143, 147, 147) !important;
+}
+
+hr {
+    margin: 0px;
+    padding: 0px;
+}
+
+.dropdown-divider {
+    margin: 10px;
+}
+
+.recipes {
+    margin: 17px;
+}
+
