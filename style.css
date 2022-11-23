@@ -45,3 +45,59 @@ hr {
     margin: 17px;
 }
 
+
+/* LUKAS style file*/
+
+
+
+        .my-custom-row{
+            background-color: white;
+            height: 40px;
+        }
+
+        .icon-style{
+            margin-top: 30px;
+            color: rgba(187, 111, 13, 0.397);
+        
+        }
+
+            .pencil{
+                margin-right: 20px;
+            }
+
+            .list{
+                margin-right: 20px;
+            }
+
+            .pencil{
+                margin-right: 20px;
+            }
+
+            .calendar{
+                margin-right: 20px;
+            }
+
+            .enhance{
+                margin-right: 20px;
+            }
+
+            .favorite{
+                margin-right: 20px;
+            }
+
+            .share{
+                margin-right: 20px;
+            }
+
+            .safe{
+                margin-right: 20px;
+            }
+
+            .trash{
+                margin-right: 20px;
+            }
+
+            .settings{
+                margin-left: 20px;
+            }
+
