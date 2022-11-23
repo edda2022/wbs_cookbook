@@ -1,0 +1,6 @@
+.container, IconBar{
+    border: solid 1px black;
+    display: flex;
+    justify-content: center;
+}
+
