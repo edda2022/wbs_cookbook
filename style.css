@@ -55,15 +55,16 @@ hr {
 
 
 
-        .my-custom-row{
+        .IconBarRow{
             background-color: white;
             height: 40px;
         }
 
         .icon-style{
+            display: flex;
+            justify-content: center;
             margin-top: 30px;
             color: rgba(187, 111, 13, 0.397);
-        
         }
 
             .pencil{
