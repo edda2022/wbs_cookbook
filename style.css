@@ -1,22 +1,26 @@
+/* Style Main */
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
 
 /* Style Navbar */
-
-
-
 .navbar {
-    background-color: rgba(214, 207, 207, 0.43);
-    height: 100vh;
     align-items: flex-start;
 }
 
+.nav-table {
+    height: 100vh;
+    margin-left: 15px;
+    margin-top: 15px;
+}
 
 
 .navbar a {
     color: rgb(67, 64, 64);
     font-weight: 400;
     font-size: 18px;
-    margin: 0px;
-    padding-right: 0px;
 }
 
 .navbar-brand {
@@ -25,11 +29,11 @@
 }
 
 .dropdown-item  {
-    width: 15vh;
+    width: 25vh;
 }
 
 .active {
-    background-color: rgb(143, 147, 147) !important;
+    background-color: rgb(195, 197, 197) !important;
 }
 
 hr {
@@ -38,11 +42,12 @@ hr {
 }
 
 .dropdown-divider {
-    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
 }
 
 .recipes {
-    margin: 17px;
+    margin-bottom: 17px;
 }
 
 
