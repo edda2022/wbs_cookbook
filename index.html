@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en"><head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+<html lang="en">
+  <head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +11,15 @@
 </head>
 <body>
 <main class="container-fluid">
-  <div class="row nav-row">
-    <section class="col-3 navbar dropdown-menu"> 
-    
-      <ul class="nav flex-column nav-pills">
+  <div class="row main-row row align-items-start">
+    <div class="col-3 navbar bg-secondary bg-opacity-25 nav-logo"> 
+      <div class="row">     
         <a href="./index.html" class="navbar-brand text-center"><img src="./anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="Our CookBook" height="60"></a>
-        <div class="big text-center font-weight-bold"><h2>Our CookBook</h2></div>
-        <div class="small text-center recipes">4 / 1.639 recipes</div>
+        <div class="big text-center font-weight-bold"><h1 class="text-secondary ">Our CookBook</h1></div>
+        <div class="small text-center recipes">1.639 recipes</div>
+      </div>
+      <div class="row nav-table ">
+      <ul class="nav flex-column nav-pills">
         <hr>
         <li class="nav-item nav-home">
           <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
@@ -24,7 +27,7 @@
         <hr>
         <li class="nav-item dropdown dropend nav-starter" >
         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Starter</a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu bg-light">
             <li><a class="dropdown-item" href="./starter1.html">Starter1</a></li>
             <li><a class="dropdown-item" href="./starter2.html">Starter2</a></li>
             <li>
@@ -35,12 +38,13 @@
              </li>           
           </ul>
         </li>
+
         <hr>
 
         <li class="nav-item dropdown dropend nav-main">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Main</a>
-          <ul class="dropdown-menu">
-           <li><a class="dropdown-item" href="#">Main1</a></li>
+          <ul class="dropdown-menu bg-light">
+           <li><a class="dropdown-item" href="./Main1.html">Basmati Rice with Nuts</a></li>
            <li><a class="dropdown-item" href="#">Main2</a></li>
           <hr class="dropdown-divider">
           <li class="nav-item">
@@ -52,7 +56,7 @@
 
         <li class="nav-item  dropdown dropend nav-dessert">
           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dessert</a>
-          <ul class="dropdown-menu">
+          <ul class="dropdown-menu bg-light">
            <li><a class="dropdown-item" href="#">Dessert1</a></li>
            <li><a class="dropdown-item" href="#">Dessert2</a></li>
            <li>
@@ -62,16 +66,16 @@
             <a class="nav-link" href="#">Add a Recipe</a>
            </li>  
           </ul>      
-        <li>
-          <hr class="dropdown-divider">
-        </li>
+          <hr>
         <li class="nav-item">
           <a class="nav-link" href="#">Add a Section</a>
          </li>
         </ul>
-    </section>
+      </div>
+    </div>
    
-    <section class="col-8 content">
+
+    <section class="col-9 content">
         <div class="IconBarRow">
                 <div class="icon-style">
 
