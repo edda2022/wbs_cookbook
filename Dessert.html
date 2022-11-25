@@ -1,0 +1,209 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+   <head><script type="text/javascript" src="/___vscode_livepreview_injected_script"></script>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+     <title>CookBook</title>
+ </head>
+ <body>
+ <main class="container-fluid">
+   <div class="row main-row row align-items-start">
+     <div class="col-3 navbar bg-secondary bg-opacity-25 nav-logo"> 
+       <div class="row">     
+         <a href="./index.html" class="navbar-brand text-center"><img src="./anh-nguyen-kcA-c3f_3FE-unsplash.jpg" alt="Our CookBook" height="60"></a>
+         <div class="big text-center font-weight-bold"><h1 class="text-secondary ">Our CookBook</h1></div>
+         <div class="small text-center recipes">1.639 recipes</div>
+       </div>
+       <div class="row nav-table ">
+       <ul class="nav flex-column nav-pills">
+         <hr>
+         <li class="nav-item nav-home">
+           <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+         </li>
+         <hr>
+         <li class="nav-item dropdown dropend nav-starter" >
+         <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Starter</a>
+           <ul class="dropdown-menu bg-light">
+             <li><a class="dropdown-item" href="./starter1.html">Starter1</a></li>
+             <li><a class="dropdown-item" href="./starter2.html">Starter2</a></li>
+             <li>
+           <hr class="dropdown-divider">
+             </li>
+             <li class="nav-item">
+               <a class="nav-link" href="#">Add a Recipe</a>
+              </li>           
+           </ul>
+         </li>
+ 
+         <hr>
+ 
+         <li class="nav-item dropdown dropend nav-main">
+           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Main</a>
+           <ul class="dropdown-menu bg-light">
+            <li><a class="dropdown-item" href="./Main4.html">Basmati Rice with Nuts</a></li>
+            <li><a class="dropdown-item" href="./Main5.html">Main2</a></li>
+           <hr class="dropdown-divider">
+           <li class="nav-item">
+             <a class="nav-link" href="#">Add a Recipe</a>
+            </li> 
+           </ul>
+         </li>
+         <hr>
+ 
+         <li class="nav-item  dropdown dropend nav-dessert">
+           <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" role="button" aria-expanded="false">Dessert</a>
+           <ul class="dropdown-menu bg-light">
+            <li><a class="dropdown-item" href="#">Dessert1</a></li>
+            <li><a class="dropdown-item" href="#">Dessert2</a></li>
+            <li>
+             <hr class="dropdown-divider">
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="#">Add a Recipe</a>
+            </li>  
+           </ul>      
+           <hr>
+         <li class="nav-item">
+           <a class="nav-link" href="#">Add a Section</a>
+          </li>
+         </ul>
+       </div>
+     </div>
+
+
+    <section class="col-9 content">
+        <div class="IconBarRow">
+                <div class="icon-style">
+
+                    <svg class="pencil" xmlns="http://www.w3.org/2000/svg" width="24" height="24"  fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M12.146.146a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1 0 .708l-10 10a.5.5 0 0 1-.168.11l-5 2a.5.5 0 0 1-.65-.65l2-5a.5.5 0 0 1 .11-.168l10-10zM11.207 2.5 13.5 4.793 14.793 3.5 12.5 1.207 11.207 2.5zm1.586 3L10.5 3.207 4 9.707V10h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.293l6.5-6.5zm-9.761 5.175-.106.106-1.528 3.821 3.821-1.528.106-.106A.5.5 0 0 1 5 12.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.468-.325z"></path>
+                    </svg>
+
+                    <svg class="list" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                    </svg>
+
+                    <svg class="calendar" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"></path>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"></path>
+                    </svg>
+
+                    <svg class="enhance" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707z"></path>
+                    </svg>
+
+                    <svg class="favorite" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z"></path>
+                    </svg>
+
+                    <svg class="share" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M11 2.5a2.5 2.5 0 1 1 .603 1.628l-6.718 3.12a2.499 2.499 0 0 1 0 1.504l6.718 3.12a2.5 2.5 0 1 1-.488.876l-6.718-3.12a2.5 2.5 0 1 1 0-3.256l6.718-3.12A2.5 2.5 0 0 1 11 2.5z"></path>
+                    </svg>
+
+                    <svg class="safe" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6.25 3.5a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2zm2 0a.75.75 0 0 0-1.5 0v2a.75.75 0 0 0 1.5 0v-2z"></path>
+                        <path fill-rule="evenodd" d="M5.914 0H12.5A1.5 1.5 0 0 1 14 1.5v13a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 14.5V3.914c0-.398.158-.78.44-1.06L4.853.439A1.5 1.5 0 0 1 5.914 0zM13 1.5a.5.5 0 0 0-.5-.5H5.914a.5.5 0 0 0-.353.146L3.146 3.561A.5.5 0 0 0 3 3.914V14.5a.5.5 0 0 0 .5.5h9a.5.5 0 0 0 .5-.5v-13z"></path>
+                    </svg>
+
+                    <svg class="delete" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5ZM11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H2.506a.58.58 0 0 0-.01 0H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1h-.995a.59.59 0 0 0-.01 0H11Zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5h9.916Zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47ZM8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5Z"></path>
+                    </svg>
+
+                    <svg class="settings" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"></path>
+                    </svg>
+                </div>
+        </div>
+   
+   
+     <section class="col-9">
+    <h1>Tiramisu</h1>
+    <h5>A simple recipe for a student</h5>
+    <figure class="figure" type="button" class="btn btn-secondary" data-toggle="tooltip" title="Delicious Tiramisu">
+      <img src="./tiramisu.jpeg" class="figure-img img-fluid" alt="Ginger-garlic paste">
+      <figcaption class="figure-caption text-center">Delicious Tiramisu</figcaption>
+    </figure>
+
+    <section>
+      <div class="jumplink">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle" viewBox="0 0 16 16">
+              <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8zm15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+            </svg></span> <a class="jumprecipe" href="#tablelink">Jump to recipe</a>
+        </div>
+      
+  </section>
+
+    <table class="table table-success table-striped">
+      <thead class="text-center">
+        <tr>
+          <th scope="col">Step</th>
+          <th scope="col">Description</th>
+          <th scope="col">Time</th>
+          <th scope="col">Precaution</th>
+        </tr>
+      </thead>
+      <tbody class="table-group-divider  text-left">
+        <tr>
+          <th scope="row">1</th>
+          <td>First of all, make the coffee. For a quick and delicious Italian coffee, we used an Espresso Machine. Then add 2 tablespoons of Rum or Marsala wine.
+
+        </td>
+          <td>10 minutes</td>
+          <td>This is optional. If you don’t like liqueurs or you are making Tiramisu for children, don’t use it. </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td> Separate the egg whites from the yolks. Set aside the yolks and whip the egg whites until stiff: you will get at it when the the egg whites will not move if you turn the bowl over.
+
+     </td>
+          <td>5 minutes</td>
+          <td>Remember that to whip egg whites to stiff peaks, there should be no trace of yolk. Once ready, set aside.</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>GNow, in a bowl, beat the egg yolks with sugar until light and smooth, 3 to 5 minutes.</td>
+          <td>3 - 5 Minutes</td>
+          <td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td> In the meantime, pour the mascarpone cheese into a bowl and work it with a spoon to make it softer. </td>
+          <td>10 seconds</td>
+          <td>Mascarpone cheese must be of excellent quality, creamy and thick. When the yolks are ready add the mascarpone cheese.</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Using the flexible-edge k-beater, slowly whip the mascarpone cream for 2 to 3 minutes. Now add the stiffly beaten egg whites.</td>
+          <td>2 - 3 Minutes</td>
+          <td>-</td>
+        </tr>
+      </tbody>
+      <caption><a tabindex="0" class="btn btn-lg btn-danger" role="button" data-toggle="popover" data-trigger="focus" data-content="Try this recipe at home">Click to view tomato pickle</a></caption>
+    </table>
+</section>
+<div>
+<button type="button" class="btn btn-info share-btn" onclick="alertmess()">Share</button>
+</div>
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+<script>
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-toggle="popover"]'));
+var popoverList = popoverTriggerList.map(function(popoverTrigger)
+{
+return new bootstrap.popover(popoverTrigger);
+}); 
+</script>
+<script>
+function alertmess() {
+  alert(location.hostname);
+</div>
+</script>
+</body>
+</html>
