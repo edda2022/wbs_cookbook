@@ -107,3 +107,11 @@ hr {
                 margin-left: 20px;
             }
 
+/* AROJ'S STYLE SECTION*/
+.image-container:hover .title1{
+    display: block;
+}
+
+.title1{
+    display: none;
+}
